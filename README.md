@@ -5,7 +5,11 @@ jQuery plugin for a simple calendar, much like the GitHub contribution chart, to
 
 The darker the day is the largest the value for that day. Gammacalendar takes the maximum value as 100% of opacity to calculate the others.
 
+![Example](https://raw.githubusercontent.com/gammasoft/calendar/master/examples/example.png)
+
 ### Examples
+
+See a full [working example here!](https://github.com/gammasoft/calendar/blob/master/examples/examples.html)
 
 ```javascript
 $('#calendar').gammacalendar([{
@@ -33,7 +37,9 @@ $('#calendar').gammacalendar([{
 
 ### API
 
+```javascript
 $('#yourSelector').gammacalendar(data[, options]);
+````
 
 Where `data` is an array of the form:
 
@@ -46,7 +52,7 @@ And `options` is an object containing optional configuration;
 ```javascript
 var options = {
     weeks: 24, //default: 4
-    i18n: 'en', //default: 'en', can be strings 'en', 'pt' or i18n objects (described below) 
+    i18n: 'en', //default: 'en', can be 'en', 'pt' or i18n objects (described below) 
     startOnSunday: false, //default: true
     highlightToday: true, //default: true
     baseColor: { //the darkest color for values greater than zero
@@ -70,4 +76,6 @@ var myCulture = {
              'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC']
 };
 ```
+
+### License MIT
  
