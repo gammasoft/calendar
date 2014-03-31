@@ -1,0 +1,68 @@
+.gammacalendar {
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+.months {
+    font-size: 10px;
+    display: inline-block;
+}
+
+.month {
+    width: 15px;
+    float: right;
+    margin-right: 1px;
+}
+
+.weeks {
+    display: inline-block;
+}
+
+.week {
+    float: left;
+    margin-right: 1px;
+}
+
+.daysOfWeek {
+    float: left;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.daySpacer, .day {
+    margin-bottom: 1px; 
+    width: 15px; 
+    height: 15px
+}
+
+.daySpacer {
+    float: right;
+    margin-right: 1px;
+}
+
+.dayOfWeek {
+    margin-bottom: 1px;
+    font-size: 10px;
+    line-height: 15px;
+    height: 15px;
+}
+
+.today {
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.day:hover {
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.clear {
+    clear: both;
+}

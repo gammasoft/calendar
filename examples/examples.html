@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript"></script>
+        <script src="../gammacalendar.js" type="text/javascript"></script>
+        <link href="../gammacalendar.css" rel="stylesheet" type="text/css"></link>
+    </head>
+    <body>
+        <div id="example1"></div>
+    
+        <script type="text/javascript">
+	        $(function() {
+	            $('#example1').gammacalendar([{
+                    date: new Date(2014, 2, 12),
+                    value: 10
+                }, {
+                    date: new Date(2014, 2, 11),
+                    value: 9
+                }, {
+                    date: new Date(2014, 2, 10),
+                    value: 8
+                }, {
+                    date: new Date(2014, 2, 9),
+                    value: 7
+                }, {
+                    date: new Date(2014, 2, 8),
+                    value: 6
+                }, {
+                    date: new Date(2014, 2, 7),
+                    value: 5
+                }, {
+                    date: new Date(2014, 2, 6),
+                    value: 4
+                }, {
+                    date: new Date(2014, 2, 5),
+                    value: 3
+                }, {
+                    date: new Date(2014, 2, 4),
+                    value: 2
+                }, {
+                    date: new Date(2014, 2, 3),
+                    value: 1
+                }, {
+                    date: new Date(2014, 2, 2),
+                    value: 2
+                }, {
+                    date: new Date(2014, 2, 1),
+                    value: 3
+                }, {
+                    date: new Date(2014, 1, 28),
+                    value: 4
+                }, {
+                    date: new Date(2014, 1, 27),
+                    value: 5
+                }, {
+                    date: new Date(2014, 1, 26),
+                    value: 6
+                }, {
+                    date: new Date(2014, 1, 25),
+                    value: 7
+                }, {
+                    date: new Date(2014, 1, 24),
+                    value: 8
+                }, {
+                    date: new Date(2014, 1, 23),
+                    value: 9
+                }, {
+                    date: new Date(2014, 1, 22),
+                    value: 10
+                }], {
+	                weeks: 24,
+	                i18n: 'en',
+	                startOnSunday: true,
+	                highlightToday: false,
+	                baseColor: {
+	                    r: 120,
+	                    g: 120,
+	                    b: 0
+	                }
+	            });
+	        });
+        </script>
+    </body>
+</html>
