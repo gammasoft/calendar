@@ -1,3 +1,5 @@
+(function() {
+
 function isDate(object) {
     return Object.prototype.toString.call(object) === '[object Date]';
 }
@@ -190,3 +192,5 @@ $.fn.gammacalendar = function(data, options) {
 
     this.html(container.html());
 };
+
+})();
