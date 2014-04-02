@@ -35,6 +35,8 @@ $('#calendar').gammacalendar([{
 });
 ```
 
+**ATTENTION**: Duplicate dates in the array will break the calendar, dates must be unique!
+
 ### API
 
 ```javascript
