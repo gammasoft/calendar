@@ -1,0 +1,37 @@
+{
+    "name": "gammacalendar",
+    "version": "0.0.1",
+    "description": "jQuery plugin for a simple calendar, much like the GitHub contribution chart, to show daily contributions.",
+    "main": "gammacalendar.js",
+    "directories": {
+        "example": "examples"
+    },
+    "scripts": {
+        "test": "grunt test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gammasoft/calendar.git"
+    },
+    "keywords": [
+        "jquery",
+        "calendar",
+        "github",
+        "contribution",
+        "chart"
+    ],
+    "author": "Gammasoft Desenvolvimento de Software Ltda <contact@gammasoft.com.br>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/gammasoft/calendar/issues"
+    },
+    "homepage": "https://github.com/gammasoft/calendar",
+    "devDependencies": {
+        "grunt": "^0.4.4",
+        "grunt-contrib-uglify": "^0.4.0",
+        "grunt-contrib-cssmin": "^0.9.0",
+        "grunt-contrib-jshint": "^0.10.0",
+        "semver": "^2.2.1",
+        "grunt-contrib-clean": "^0.5.0"
+    }
+}
