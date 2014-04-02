@@ -5,7 +5,7 @@ jQuery plugin for a simple calendar, much like the GitHub contribution chart, to
 
 The darker the day is the largest the value for that day. Gammacalendar takes the maximum value as 100% of opacity to calculate the others.
 
-![Example](https://raw.githubusercontent.com/gammasoft/calendar/master/examples/example.png)
+![Example](/examples/example.png)
 
 ### Examples
 
